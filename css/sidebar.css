@@ -1,0 +1,55 @@
+.logo {
+    height: 20%;
+    border-bottom: 1px solid #fff;
+
+}
+
+.sidebar {
+    height: 100vh;
+    background: #2c3e50;
+    opacity: .9;
+}
+
+.sidebar_item {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.sidebar_item li {
+    text-indent: 5px;
+    line-height: 40px;
+}
+
+.sidebar_item li a {
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+    font-size: 22vw;
+
+}
+
+.sidebar_item li a:hover {
+    background: #16A085;
+    border-radius: 100px;
+}
+
+.tbl_btn {
+    background: teal;
+    border-radius: 100px;
+}
+
+
+.sidebar_item ul{
+    position: static;
+    display: none;
+    list-style: none;
+}
+
+#value{
+    padding-left: 0px;
+}
+
+.sidebar_item ul li a{
+    /* padding-left: 6px; */
+}
